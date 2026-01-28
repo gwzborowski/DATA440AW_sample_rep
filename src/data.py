@@ -10,7 +10,7 @@ def make_data(n: int=100, low: int=0, high: int=25) -> np.ndarray: # ALWAYS TYPE
     """
     return np.random.randint(low=low, high=high+1, size=(n,2))
 
-def save_data(data: np.array, filename: str) -> None:
+def save_data(data: np.ndarray, filename: str) -> None:
     """Save a numpy array to the default output folder, ensuring that the folder exists
     """
     full_filename = os.path.join(PATH_DATA, filename)
