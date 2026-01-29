@@ -14,7 +14,7 @@ To run the program in the terminal:
 ## Contents
 `main.py`: The main entry point into the program, used to run the code.
 
-`src`: The source code
+`src`: A folder containing all of the source code.
 
 `data`: A folder containing all of the data needed to run the project.
 
