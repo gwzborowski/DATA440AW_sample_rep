@@ -18,6 +18,8 @@ def make_figure(data: np.ndarray, filename: str) -> None:
     plt.figure(figsize=(6,6))
     plt.scatter(data[:, 0], data[:, 1])
     plt.savefig(full_filename, bbox_inches = ('tight'))
+    plt.xlabel('x component')
+    plt.ylabel('y component')
     plt.show()
 
     return None
