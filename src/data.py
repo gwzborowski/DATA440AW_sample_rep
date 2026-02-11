@@ -36,4 +36,3 @@ def load_data(file_name: str) -> np.ndarray:
     """Loads data from an .npy file located in the default data directory
     """
     return np.load(os.path.join(PATH_DATA, file_name))
-
